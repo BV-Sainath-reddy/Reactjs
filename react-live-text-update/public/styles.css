@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(247, 223, 223);
+}
+.container {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.smallcontainer {
+  background-color: rgb(217, 157, 157);
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 200px;
+  box-shadow: 2px 3px 4px 1px rgb(0, 0, 0, 0.1);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  background-color: white;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 50px;
+}
+input {
+  flex: 1;
+  min-width: 230px;
+  text-align: start;
+  align-items: start;
+  padding: 5px;
+  border: 0px;
+}
+button {
+  width: 200px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(110, 137, 219);
+  border: 0px;
+}
+h1 {
+  padding: 5px;
+  margin: 5px;
+}
